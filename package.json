@@ -50,7 +50,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cross-env": "^7.0.3",
-    "prisma": "^6.11.1"
+    "cross-env": "^7.0.3"
   }
 }
