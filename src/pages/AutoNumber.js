@@ -57,7 +57,7 @@ export default function AutoNumber() {
     setPhrase(getRandomPhrase(1));
 
     // API로부터 DB 데이터 불러오기
-    fetch('/lotto.json')
+    fetch(`${process.env.PUBLIC_URL}/lotto.json`)
       .then(res => res.json())
       .then(data => {
         setLottoHistory(data);
@@ -418,7 +418,7 @@ export default function AutoNumber() {
       어떻게 활용하는가에 따라 굉장한 도움이 될거라고 생각됩니다.
        
       <h1 id="example">예시</h1>
-      <SS.ExempleImg src="/images/lotto-exem1.png" alt="Logo" />
+      <SS.ExempleImg src={`${process.env.PUBLIC_URL}/images/lotto.png`} />
       저는 현재 아직까지 번호 직접입력해서 2등을 본적이 한번도 없습니다..😅
       
 
