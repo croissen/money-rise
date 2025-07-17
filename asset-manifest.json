@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/money-rise/static/css/main.d7527704.css",
-    "main.js": "/money-rise/static/js/main.a5343d72.js",
+    "main.js": "/money-rise/static/js/main.ba7685ea.js",
     "index.html": "/money-rise/index.html",
     "main.d7527704.css.map": "/money-rise/static/css/main.d7527704.css.map",
-    "main.a5343d72.js.map": "/money-rise/static/js/main.a5343d72.js.map"
+    "main.ba7685ea.js.map": "/money-rise/static/js/main.ba7685ea.js.map"
   },
   "entrypoints": [
     "static/css/main.d7527704.css",
-    "static/js/main.a5343d72.js"
+    "static/js/main.ba7685ea.js"
   ]
 }
