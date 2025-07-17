@@ -31,7 +31,6 @@ export default function AutoNumber() {
   const [resultSets, setResultSets] = useState([]);
   const [phrase, setPhrase] = useState('');
   const captureRef = useRef();
-  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:4000';
 
   const [inputNumbers, setInputNumbers] = useState(Array(6).fill(''));
   const [matchResult, setMatchResult] = useState('');
@@ -58,7 +57,7 @@ export default function AutoNumber() {
     setPhrase(getRandomPhrase(1));
 
     // API로부터 DB 데이터 불러오기
-    fetch(`${API_BASE_URL}/api/lotto-history`)
+    fetch('/lotto.json')
       .then(res => res.json())
       .then(data => {
         setLottoHistory(data);

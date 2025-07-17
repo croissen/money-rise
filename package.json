@@ -1,5 +1,6 @@
 {
-  "name": "goal-amount-calculator",
+  "name": "money-rise",
+  "homepage": "https://croissen.github.io/money-rise",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,9 +12,9 @@
     "csv-writer": "^1.6.0",
     "date-fns": "^4.1.0",
     "html2canvas": "^1.4.1",
-    "react": "^19.1.0",
+    "react": "^18.3.1",
     "react-datepicker": "^8.4.0",
-    "react-dom": "^19.1.0",
+    "react-dom": "^18.3.1",
     "react-router-dom": "^7.6.3",
     "react-scripts": "5.0.1",
     "sqlite3": "^5.1.7",
@@ -23,6 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -50,6 +53,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.3.0"
   }
 }
