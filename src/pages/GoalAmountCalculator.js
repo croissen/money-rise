@@ -44,6 +44,13 @@ export default function GoalAmountCalculator() {
   const [calculatedTimeUnitInfo, setCalculatedTimeUnitInfo] = useState('');
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const handleClick = (e) => {
+    e.preventDefault(); // 기본 동작 차단
+    const id = e.currentTarget.getAttribute('href').substring(1);
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  }
+
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
@@ -390,8 +397,8 @@ export default function GoalAmountCalculator() {
 
     <S.Container>
       <h1>목차</h1>
-        <SS.LiTitle><a href="#how-to">사용법</a></SS.LiTitle> 
-        <SS.LiTitle><a href="#example">예시</a></SS.LiTitle> 
+        <SS.LiTitle><a href="#how-to" onClick={handleClick}>사용법</a></SS.LiTitle> 
+        <SS.LiTitle><a href="#example" onClick={handleClick}>예시</a></SS.LiTitle> 
 
       
       <h1 id="how-to">사용법</h1>

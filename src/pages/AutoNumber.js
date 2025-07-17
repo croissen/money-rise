@@ -5,7 +5,12 @@ import * as SS from './Styles';
 import AdsBanner from '../components/AdsBanner';
 
 const allNumbers = Array.from({ length: 45 }, (_, i) => i + 1);
-
+const handleClick = (e) => {
+  e.preventDefault(); // 기본 동작 차단
+  const id = e.currentTarget.getAttribute('href').substring(1);
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'smooth' });
+}
 
 const phrases = {
   1: ['인생은 한방이지!', '아메리카노 한번 안먹지 뭐'],
@@ -388,11 +393,11 @@ export default function AutoNumber() {
 
     <S.Container>
       <h1>목차</h1>
-        <SS.LiTitle><a href="#percent">로또 당첨확률</a></SS.LiTitle> 
-        <SS.LiTitle><a href="#info">설명</a></SS.LiTitle> 
-        <SS.LiTitle><a href="#num1">역대 한 번도 안 나온 번호 추천</a></SS.LiTitle> 
-        <SS.LiTitle><a href="#num2">이 번호는 역대 몇 번 당첨이 되었을까?</a></SS.LiTitle> 
-        <SS.LiTitle><a href="#example">예시</a></SS.LiTitle> 
+        <SS.LiTitle><a href="#percent" onClick={handleClick}>로또 당첨확률</a></SS.LiTitle> 
+        <SS.LiTitle><a href="#info" onClick={handleClick}>설명</a></SS.LiTitle> 
+        <SS.LiTitle><a href="#num1" onClick={handleClick}>역대 한 번도 안 나온 번호 추천</a></SS.LiTitle> 
+        <SS.LiTitle><a href="#num2" onClick={handleClick}>이 번호는 역대 몇 번 당첨이 되었을까?</a></SS.LiTitle> 
+        <SS.LiTitle><a href="#example" onClick={handleClick}>예시</a></SS.LiTitle> 
 
       <h1 id="percent">로또 당첨확률</h1>
       <SS.ExempleImg src={`${process.env.PUBLIC_URL}/images/lotto.png`} />
