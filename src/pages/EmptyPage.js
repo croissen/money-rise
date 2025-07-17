@@ -30,13 +30,13 @@ const GroupWrapper = styled.div`
 const Img = styled.div`
   width: 100%;
   height: 100%;
-  background-image: url('/images/boy.png');
+   background-image: url(${process.env.PUBLIC_URL + '/images/boy.png'});
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 
   body.dark-mode & {
-    background-image: url('/images/darkboy.png');
+     background-image: url(${process.env.PUBLIC_URL + '/images/darkboy.png'});
   }
 `;
 

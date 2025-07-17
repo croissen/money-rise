@@ -414,7 +414,7 @@ export default function GoalAmountCalculator() {
       
       
       <h1 id="example">예시</h1>
-      <SS.ExempleImg src="/images/calc-exem1.png" alt="Logo" />
+      <SS.ExempleImg src={`${process.env.PUBLIC_URL}/images/calc-exem1.png`} />
 
     </S.Container>
     </S.Parent>

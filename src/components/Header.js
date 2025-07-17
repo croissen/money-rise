@@ -37,7 +37,7 @@ export default function Header() {
     <S.HeaderWrapper>
       <S.Wrapper>
         <S.LogoBox as={Link} to="/">
-          <S.Logo src={isDarkMode ? "/images/rabbit.png" : "/images/rabbit.png"} alt="Logo" />
+          <S.Logo src={`${process.env.PUBLIC_URL}/images/rabbit.png`} alt="Logo" />
           <S.LogoText className="pc-only">MoneyRi$e</S.LogoText>
         </S.LogoBox>
 

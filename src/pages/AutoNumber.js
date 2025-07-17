@@ -395,7 +395,7 @@ export default function AutoNumber() {
         <SS.LiTitle><a href="#example">예시</a></SS.LiTitle> 
 
       <h1 id="percent">로또 당첨확률</h1>
-      <SS.ExempleImg src="/images/lotto.png" alt="Logo" />
+      <SS.ExempleImg src={`${process.env.PUBLIC_URL}/images/lotto.png`} />
       실질적 당첨 확률은 무려 이렇게 낮지만 우리는 가능성을 올릴 수 있습니다.
 
       <h1 id="info">설명</h1>
@@ -418,7 +418,7 @@ export default function AutoNumber() {
       어떻게 활용하는가에 따라 굉장한 도움이 될거라고 생각됩니다.
        
       <h1 id="example">예시</h1>
-      <SS.ExempleImg src={`${process.env.PUBLIC_URL}/images/lotto.png`} />
+      <SS.ExempleImg src={`${process.env.PUBLIC_URL}/images/lotto-exem1.png`} />
       저는 현재 아직까지 번호 직접입력해서 2등을 본적이 한번도 없습니다..😅
       
 

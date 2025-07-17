@@ -49,8 +49,8 @@ export default function Home() {
         </S.Planet>
       </S.Orbit>
 
-      <S.Wizard src="/images/wizard.png" alt="Logo" />
-      <S.Logo src="/images/rabbit.png" alt="Logo" onClick={handleLogoClick} />
+      <S.Wizard src={`${process.env.PUBLIC_URL}/images/wizard.png`} alt="Logo" />
+      <S.Logo src={`${process.env.PUBLIC_URL}/images/rabbit.png`} onClick={handleLogoClick} />
     </S.Container>
   );
 }
