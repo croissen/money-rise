@@ -1,5 +1,6 @@
 {
   "name": "money-rise",
+  "homepage": "https://croissen.github.io/money-rise",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
