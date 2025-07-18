@@ -1,0 +1,36 @@
+{
+  "케데헌": [
+    {
+      "id": 1, "title": "헌트릭스 케이팝데몬헌터스 티셔츠",
+      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/3564/79f14d6512ca45301a2b35737f579678f46684b647f0bb93d626621a15ed.jpg",
+      "link": "https://link.coupang.com/a/cFtV6s", "price": "17,900원"
+    },  
+    {
+      "id": 2, "title": "케이팝데몬 헌터스 헌트릭스 반팔티 케데헌 굿즈 티셔츠",
+      "image": "https://thumbnail9.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/fb15/277d93517e44813c9cd7b57f317aa8cc731635696fb292cd69ba118cd8db.jpg",
+      "link": "https://link.coupang.com/a/cFu97O", "price": "19,800원"
+    },  
+    {
+      "id": 3, "title": "케데헌 케이팝 데몬 헌터스 호랑이 키링 굿즈 더피 4개 세트구성dsfsdsdffffwefe",
+      "image": "//thumbnail9.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/6392/1279a9583c1631a5ac99b0519f260fd5609f0d834af6d1213aa6a63b76a2.jpg",
+      "link": "https://link.coupang.com/a/cFvj5E", "price": "12,400원"
+    },  
+    {
+      "id": 4, "title": "케이팝데몬 헌터스 필통 케데헌 루미 미라 조이 굿즈 파우치 수납",
+      "image": "//thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2b43/59c787bbc2228910059cac22e2e25a6c11538c70c0d358057cf9ab950f62.jpg",
+      "link": "https://link.coupang.com/a/cFvk14", "price": "19,800원"
+    }
+  ],
+  "추천": [
+    { "id": 3, "title": "상품 C", "image": "https://via.placeholder.com/200" },
+    { "id": 4, "title": "상품 D", "image": "https://via.placeholder.com/200" }
+  ],
+  "최신": [
+    { "id": 5, "title": "상품 E", "image": "https://via.placeholder.com/200" },
+    { "id": 6, "title": "상품 F", "image": "https://via.placeholder.com/200" }
+  ],
+  "저가": [
+    { "id": 7, "title": "상품 G", "image": "https://via.placeholder.com/200" },
+    { "id": 8, "title": "상품 H", "image": "https://via.placeholder.com/200" }
+  ]
+}

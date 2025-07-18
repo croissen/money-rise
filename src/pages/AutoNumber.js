@@ -323,7 +323,7 @@ export default function AutoNumber() {
       )}
 
       <S.Container ref={captureRef}>
-        <S.Title>로또번호 채굴</S.Title>
+        <S.Title>로또 번호 채굴</S.Title>
         <S.EmptyBox1/>
         <S.Title>🔴역대 한 번도 안 나온 번호 추천🟡</S.Title>
         <S.Row>

@@ -4,9 +4,9 @@ import { Link, useLocation } from 'react-router-dom';
 
 const menuItems = [
   { path: '/goal-amount-calculator', label: '목표 금액 계산기' },
-  { path: '/auto-number', label: '로또번호 채굴' },
+  { path: '/auto-number', label: '로또 번호 채굴' },
+  { path: '/golden-items', label: '황금아이템' },
   { path: '/empty-page', label: 'Comming-Soon' },
-  { path: '/qna', label: '건의 및 칭찬' },
 ];
 
 const getPageName = (pathname) => {
