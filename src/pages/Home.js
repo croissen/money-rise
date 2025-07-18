@@ -44,7 +44,7 @@ export default function Home() {
         <S.Planet $pos="bottom" style={{ cursor: 'pointer' }} onClick={() => navigate('/empty-page')}>
           <S.PlanetInner>소개</S.PlanetInner>
         </S.Planet>
-        <S.Planet $pos="left" style={{ cursor: 'pointer' }} onClick={() => navigate('/golden-item')}>
+        <S.Planet $pos="left" style={{ cursor: 'pointer' }} onClick={() => navigate('/golden-items')}>
           <S.PlanetInner>황금</S.PlanetInner>
         </S.Planet>
       </S.Orbit>
