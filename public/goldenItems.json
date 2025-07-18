@@ -11,26 +11,50 @@
       "link": "https://link.coupang.com/a/cFu97O", "price": "19,800원"
     },  
     {
-      "id": 3, "title": "케데헌 케이팝 데몬 헌터스 호랑이 키링 굿즈 더피 4개 세트구성dsfsdsdffffwefe",
+      "id": 3, "title": "케데헌 케이팝 데몬 헌터스 호랑이 키링 굿즈 더피 4개 세트구성",
       "image": "//thumbnail9.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/6392/1279a9583c1631a5ac99b0519f260fd5609f0d834af6d1213aa6a63b76a2.jpg",
       "link": "https://link.coupang.com/a/cFvj5E", "price": "12,400원"
     },  
     {
       "id": 4, "title": "케이팝데몬 헌터스 필통 케데헌 루미 미라 조이 굿즈 파우치 수납",
       "image": "//thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2b43/59c787bbc2228910059cac22e2e25a6c11538c70c0d358057cf9ab950f62.jpg",
+      "link": "https://link.coupang.com/a/cFvk14", "price": "19,500원원"
+    }
+  ],
+  "장마": [
+    {
+      "id": 1, "title": "[안동마 전체상품] 장마 특 상 중 하 산지직송 2.5.9kg, 1박스, 장마실속(5kg)",
+      "image": "//thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/6dcb/45db90c8cc00f97408abc14c57679f4b59c78e683f16e473446a5257267f.jpg",
+      "link": "https://link.coupang.com/a/cFBqbb", "price": "24,540원"
+    },
+    {
+      "id": 2, "title": "브라운라이프 습기제거제 옷장용 초강력 빠른 제습제 본품, 250g, 24개",
+      "image": "//thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/200234028551141-335d31d8-888a-4d66-8f71-4bb430ccd98f.jpg",
+      "link": "https://link.coupang.com/a/cFBsfi", "price": "17,900원"
+    },
+    {
+      "id": 3, "title": "살림백서 뿌리는 곰팡이제거제, 800ml, 2개",
+      "image": "//thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/73ce/92d04bed4fdb4d0b3705a9a4f9c741645b2e9817ad9c64587d01b8c28433.jpg",
+      "link": "https://link.coupang.com/a/cFBvGo", "price": "14,150원"
+    },
+    {
+      "id": 4, "title": "로젤라 여성 패션 레인부츠 가볍고 미끄럼 방지 스트랩 중간 기장 레인부츠",
+      "image": "//thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4dc9/0912c64513ca105716ee94e4b94d14ccc32064aa4e96eab1013b28e3bef8.png",
+      "link": "https://link.coupang.com/a/cFBxb9", "price": "16,890원"
+    }
+  ],
+  "최신": [
+    {
+      "id": 4, "title": "케이팝데몬 헌터스 필통 케데헌 루미 미라 조이 굿즈 파우치 수납",
+      "image": "//thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2b43/59c787bbc2228910059cac22e2e25a6c11538c70c0d358057cf9ab950f62.jpg",
       "link": "https://link.coupang.com/a/cFvk14", "price": "19,800원"
     }
   ],
-  "추천": [
-    { "id": 3, "title": "상품 C", "image": "https://via.placeholder.com/200" },
-    { "id": 4, "title": "상품 D", "image": "https://via.placeholder.com/200" }
-  ],
-  "최신": [
-    { "id": 5, "title": "상품 E", "image": "https://via.placeholder.com/200" },
-    { "id": 6, "title": "상품 F", "image": "https://via.placeholder.com/200" }
-  ],
   "저가": [
-    { "id": 7, "title": "상품 G", "image": "https://via.placeholder.com/200" },
-    { "id": 8, "title": "상품 H", "image": "https://via.placeholder.com/200" }
+    {
+      "id": 4, "title": "케이팝데몬 헌터스 필통 케데헌 루미 미라 조이 굿즈 파우치 수납",
+      "image": "//thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2b43/59c787bbc2228910059cac22e2e25a6c11538c70c0d358057cf9ab950f62.jpg",
+      "link": "https://link.coupang.com/a/cFvk14", "price": "19,800원"
+    }
   ]
 }

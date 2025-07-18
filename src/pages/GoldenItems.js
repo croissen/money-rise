@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import * as S from './GoldenItems.styles';
 
-const TABS = ['케데헌', '추천', '최신', '저가'];
+const TABS = ['케데헌', '장마', '최신', '저가'];
 
 export default function GoldenKeyword() {
   const [activeTab, setActiveTab] = useState('케데헌');
@@ -40,11 +40,11 @@ export default function GoldenKeyword() {
       <S.ItemsGrid>
         {items.map((item) => (
           <S.Item key={item.id}>
-            <a href={item.link} target="_blank" rel="noopener noreferrer">
+            <S.ItemLink href={item.link} target="_blank" rel="noopener noreferrer">
               <S.ItemImage src={item.image} alt={item.title} />
-            </a>
-            <S.ItemTitle>{item.title}</S.ItemTitle>
-            <S.ItemPrice>{item.price}</S.ItemPrice>
+              <S.ItemTitle>{item.title}</S.ItemTitle>
+              <S.ItemPrice>{item.price}</S.ItemPrice>
+            </S.ItemLink>
           </S.Item>
         ))}
       </S.ItemsGrid>
