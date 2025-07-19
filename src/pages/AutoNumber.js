@@ -3,6 +3,7 @@ import html2canvas from 'html2canvas';
 import * as S from './AutoNumber.styles';
 import * as SS from './Styles';
 import AdsBanner from '../components/AdsBanner';
+import { Link } from 'react-router-dom';
 
 const allNumbers = Array.from({ length: 45 }, (_, i) => i + 1);
 const handleClick = (e) => {
@@ -398,6 +399,9 @@ export default function AutoNumber() {
         <SS.LiTitle><a href="#num1" onClick={handleClick}>역대 한 번도 안 나온 번호 추천</a></SS.LiTitle> 
         <SS.LiTitle><a href="#num2" onClick={handleClick}>이 번호는 역대 몇 번 당첨이 되었을까?</a></SS.LiTitle> 
         <SS.LiTitle><a href="#example" onClick={handleClick}>예시</a></SS.LiTitle> 
+
+        <SS.LiTitle><Link to="/lotto-history">역대 번호별 당첨횟수 보러가기</Link></SS.LiTitle> 
+
 
       <h1 id="percent">로또 당첨확률</h1>
       <SS.ExempleImg src={`${process.env.PUBLIC_URL}/images/lotto.png`} />
