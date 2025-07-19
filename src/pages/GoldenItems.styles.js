@@ -4,6 +4,7 @@ export const Container = styled.div`
   padding: 1.5rem;
   max-width: 72rem; /* 6xl */
   margin: 0 auto;
+
 `;
 
 export const Title = styled.h2`
@@ -61,11 +62,13 @@ export const ItemLink = styled.a`
 `;
 
 export const ItemImage = styled.img`
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 0.5rem; /* rounded-lg */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
 `;
 
 export const ItemTitle = styled.p`
@@ -74,7 +77,8 @@ export const ItemTitle = styled.p`
   height: 40px;
   max-height: calc(20px * 2); 
   text-align: center;
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;

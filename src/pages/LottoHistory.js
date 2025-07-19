@@ -4,6 +4,11 @@ export default function LottoHistory() {
   const [lottoHistory, setLottoHistory] = useState([]);
   const [resultByRound, setResultByRound] = useState([]);
 
+  const [filter2, setFilter2] = useState('');
+  const [filter3, setFilter3] = useState('');
+  const [filter4, setFilter4] = useState('');
+  const [filter5, setFilter5] = useState('');
+
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/lotto.json`)
       .then((res) => res.json())
@@ -15,7 +20,6 @@ export default function LottoHistory() {
     if (lottoHistory.length === 0) return;
 
     const results = lottoHistory.map((currentRound) => {
-      // 현재 회차 당첨 번호
       const currentNumbers = [
         currentRound.번호1,
         currentRound.번호2,
@@ -26,7 +30,6 @@ export default function LottoHistory() {
       ];
       const currentBonus = currentRound.보너스;
 
-      // 1등은 제외, 2~5등 횟수 초기화
       let count2 = 0,
         count3 = 0,
         count4 = 0,
@@ -43,12 +46,11 @@ export default function LottoHistory() {
         ];
         const bonusNumber = round.보너스;
 
-        // 현재 회차 번호와 비교할 당첨번호 간 중복 개수
         const matchedCount = currentNumbers.filter((n) => winningNumbers.includes(n)).length;
         const bonusMatch = currentNumbers.includes(bonusNumber);
 
         if (matchedCount === 6) {
-          // 1등은 카운트 안 함 (본인 회차 1등 포함되기 때문)
+          // 1등 제외
         } else if (matchedCount === 5 && bonusMatch) {
           count2++;
         } else if (matchedCount === 5) {
@@ -71,14 +73,62 @@ export default function LottoHistory() {
       };
     });
 
-    // 회차 순으로 정렬 (내림차순: 최신회차 먼저)
     results.sort((a, b) => b.round - a.round);
     setResultByRound(results);
   }, [lottoHistory]);
 
+  const filteredResults = resultByRound.filter((result) => {
+    return (
+      (filter2 === '' || result.rank2 === Number(filter2)) &&
+      (filter3 === '' || result.rank3 === Number(filter3)) &&
+      (filter4 === '' || result.rank4 === Number(filter4)) &&
+      (filter5 === '' || result.rank5 === Number(filter5))
+    );
+  });
+
   return (
     <div>
       <h1>역대 회차별 당첨 번호와 당첨 횟수 (2~5등)</h1>
+
+      <div style={{ marginBottom: '10px' }}>
+        <label>
+          2등 당첨 횟수: 
+          <input
+            type="number"
+            value={filter2}
+            onChange={(e) => setFilter2(e.target.value)}
+            style={{ margin: '0 10px' }}
+          />
+        </label>
+        <label>
+          3등 당첨 횟수: 
+          <input
+            type="number"
+            value={filter3}
+            onChange={(e) => setFilter3(e.target.value)}
+            style={{ margin: '0 10px' }}
+          />
+        </label>
+        <label>
+          4등 당첨 횟수: 
+          <input
+            type="number"
+            value={filter4}
+            onChange={(e) => setFilter4(e.target.value)}
+            style={{ margin: '0 10px' }}
+          />
+        </label>
+        <label>
+          5등 당첨 횟수: 
+          <input
+            type="number"
+            value={filter5}
+            onChange={(e) => setFilter5(e.target.value)}
+            style={{ margin: '0 10px' }}
+          />
+        </label>
+      </div>
+
       <table border="1" cellPadding="5" style={{ borderCollapse: 'collapse', width: '100%' }}>
         <thead>
           <tr>
@@ -92,7 +142,7 @@ export default function LottoHistory() {
           </tr>
         </thead>
         <tbody>
-          {resultByRound.map(({ round, numbers, bonus, rank2, rank3, rank4, rank5 }) => (
+          {filteredResults.map(({ round, numbers, bonus, rank2, rank3, rank4, rank5 }) => (
             <tr key={round}>
               <td>{round} 회</td>
               <td>{numbers.join(', ')}</td>
