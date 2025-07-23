@@ -9,6 +9,7 @@ import AdsPage from './pages/AdsPage';
 import GlobalStyle from './styles/GlobalStyle';
 import GoldenItems from './pages/GoldenItems';
 import LottoHistory from './pages/LottoHistory';
+import ProAutoNumber from './pages/ProAutoNumber';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/golden-items" element={<GoldenItems />} />
           <Route path="/empty-page" element={<EmptyPage />} />
           <Route path="/ads" element={<AdsPage />} />
+          <Route path="/pro-auto-number" element={<ProAutoNumber />} />
         </Routes>
       </Layout>
     </Router>

@@ -4,6 +4,7 @@ import * as S from './AutoNumber.styles';
 import * as SS from './Styles';
 import AdsBanner from '../components/AdsBanner';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const allNumbers = Array.from({ length: 45 }, (_, i) => i + 1);
 const handleClick = (e) => {
@@ -39,6 +40,9 @@ export default function AutoNumber() {
   const captureRef = useRef();
   const isAdAvailable = false;
 
+  const navigate = useNavigate();
+  const clickTimestamps = useRef([]);
+
   const [inputNumbers, setInputNumbers] = useState(Array(6).fill(''));
   const [matchResult, setMatchResult] = useState('');
 
@@ -47,6 +51,49 @@ export default function AutoNumber() {
   const [lastBonusNumber, setLastBonusNumber] = useState(null);
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  const handlePaste = (e) => {
+    e.preventDefault();
+    const paste = e.clipboardData.getData('text');
+    // 공백, 쉼표, 기타 구분자 기준으로 분리
+    const nums = paste.trim().split(/[\s,]+/).slice(0, 6);
+    if (nums.every(n => /^\d+$/.test(n) && Number(n) >= 1 && Number(n) <= 45)) {
+      // 6개 미만일 수도 있으니 나머지는 빈칸으로 처리
+      const newInputs = [...inputNumbers];
+      nums.forEach((num, idx) => {
+        newInputs[idx] = num;
+      });
+      for(let i = nums.length; i < 6; i++){
+        newInputs[i] = '';
+      }
+      setInputNumbers(newInputs);
+      if (nums.length === 6) checkCombination(nums.map(Number));
+    }
+  };
+
+  const handleKeyDown = (e, idx) => {
+    if (e.key === ' ' || e.key === 'Spacebar') {
+      e.preventDefault();
+      // 다음 input으로 포커스 이동
+      const nextInput = document.querySelectorAll('input')[idx + 1];
+      if (nextInput) nextInput.focus();
+    }
+  };
+
+
+  const handleSecretClick = () => {
+    const now = Date.now();
+    clickTimestamps.current = [...clickTimestamps.current, now];
+
+    // 최근 1초 이내 클릭만 필터링
+    clickTimestamps.current = clickTimestamps.current.filter(
+      (t) => now - t <= 1000
+    );
+
+    if (clickTimestamps.current.length >= 5) {
+      navigate('/pro-auto-number');
+    }
+  };
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
@@ -327,7 +374,7 @@ export default function AutoNumber() {
       <S.Container ref={captureRef}>
         <S.Title>로또 번호 채굴</S.Title>
         <S.EmptyBox1/>
-        <S.Title>🔴역대 한 번도 안 나온 번호 추천🟡</S.Title>
+        <S.Title><span onClick={handleSecretClick}>🔴</span>역대 한 번도 안 나온 번호 추천🟡</S.Title>
         <S.Row>
           <S.RandomPhrase>{phrase}</S.RandomPhrase>
           <S.Chepter1Right>
@@ -372,6 +419,8 @@ export default function AutoNumber() {
               bgColor={val ? getBallColor(Number(val)) : '#ddd'}
               onChange={(e) => handleNumberInput(idx, e.target.value)}
               onFocus={() => handleInputFocus(idx)}
+              onPaste={handlePaste}
+              onKeyDown={(e) => handleKeyDown(e, idx)}
             />
           ))}
         </S.NumberList>
