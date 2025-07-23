@@ -37,6 +37,7 @@ export default function AutoNumber() {
   const [resultSets, setResultSets] = useState([]);
   const [phrase, setPhrase] = useState('');
   const captureRef = useRef();
+  const isAdAvailable = false;
 
   const [inputNumbers, setInputNumbers] = useState(Array(6).fill(''));
   const [matchResult, setMatchResult] = useState('');
@@ -300,7 +301,7 @@ export default function AutoNumber() {
 
   return (
     <>
-    {isMobile && (
+    {isMobile && isAdAvailable && (
       <SS.AdsArea>
         <AdsBanner />
       </SS.AdsArea>
@@ -385,7 +386,7 @@ export default function AutoNumber() {
         <S.MatchResult>{matchResult}</S.MatchResult>
       </S.Container>
 
- 	  {isMobile && (
+ 	  {isMobile && isAdAvailable && (
       <SS.AdsArea>
         <AdsBanner />
       </SS.AdsArea>
@@ -434,7 +435,7 @@ export default function AutoNumber() {
     </S.Parent>
 
 	   
-    {!isMobile && (
+    {!isMobile && isAdAvailable && (
       <SS.AdWrapper>
         <SS.AdsArea>
           <AdsBanner />

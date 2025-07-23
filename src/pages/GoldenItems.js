@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import * as S from './GoldenItems.styles';
 
-const TABS = ['케데헌', '장마', '최신', '저가'];
+const TABS = ['케데헌', '장마', '자취생 꿀템', '머니머니 앤 힐링'];
 
 export default function GoldenKeyword() {
   const [activeTab, setActiveTab] = useState('케데헌');

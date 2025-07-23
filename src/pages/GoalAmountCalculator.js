@@ -34,7 +34,7 @@ export default function GoalAmountCalculator() {
   const [isCalculated, setIsCalculated] = useState(false);
   const [timeUnitInfo, setTimeUnitInfo] = useState('');
   const captureRef = useRef();
-  const isAdAvailable = true;
+  const isAdAvailable = false;
 
   // 계산된 결과 고정용 (공유용)
   const [calculatedGoalName, setCalculatedGoalName] = useState('');

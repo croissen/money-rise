@@ -43,18 +43,48 @@
       "link": "https://link.coupang.com/a/cFBxb9", "price": "16,890원"
     }
   ],
-  "최신": [
+  "자취생 꿀템": [
     {
-      "id": 4, "title": "케이팝데몬 헌터스 필통 케데헌 루미 미라 조이 굿즈 파우치 수납",
-      "image": "//thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2b43/59c787bbc2228910059cac22e2e25a6c11538c70c0d358057cf9ab950f62.jpg",
-      "link": "https://link.coupang.com/a/cFvk14", "price": "19,800원"
+      "id": 1, "title": "코멧 홈 빨아쓰는 규조토 발매트, 베이지 타원, 1개",
+      "image": "//thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/d77a/f56bd6410b7fcef609ff70c62edfb809f7c97b116759b039a058db470d6e.jpg",
+      "link": "https://link.coupang.com/a/cGqJ0j", "price": "7,790원"
+    },
+    {
+      "id": 2, "title": "코멧 재활용 분리수거함 36L x 3종 세트, 1세트, 혼합색상",
+      "image": "//thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/1025_amir_coupang_oct_80k/0bd6/849cee45caa5558a169ac997b4af4b8b55e2d4c50261ff0359939b76b829.jpg",
+      "link": "https://link.coupang.com/a/cGqLx7", "price": "4,990원"
+    },
+    {
+      "id": 3, "title": "스피세프 저소음 미니 제습기 원룸 화장실 욕실 옷장 가정용 제습",
+      "image": "//thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/e1bf/0a78939783a6170910bda0514e618abbf297336220f77b2d229fc4128934.jpg",
+      "link": "https://link.coupang.com/a/cGqLKG", "price": "56,800원"
+    },
+    {
+      "id": 4, "title": "스파클 생수 무라벨, 2L, 24개",
+      "image": "//thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/c49e/45b6caafb5cd114e5e2220d420fc54e1ab82766a1c2715a99060891d831e.jpg",
+      "link": "https://link.coupang.com/a/cGqMV6", "price": "11,990원"
     }
   ],
-  "저가": [
+  "머니머니 앤 힐링": [
     {
-      "id": 4, "title": "케이팝데몬 헌터스 필통 케데헌 루미 미라 조이 굿즈 파우치 수납",
-      "image": "//thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2b43/59c787bbc2228910059cac22e2e25a6c11538c70c0d358057cf9ab950f62.jpg",
-      "link": "https://link.coupang.com/a/cFvk14", "price": "19,800원"
+      "id": 1, "title": "votgl DIY명화그리기 그림그리기꽃 유화 세트 40 x 50cm",
+      "image": "//thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/ef1c/8a533b60693f89d1fb25d708d3ed0d382963536f2265a3bb1d6bbae8ab44.jpg",
+      "link": "https://link.coupang.com/a/cGqOtu", "price": "13,800원"
+    },
+    {
+      "id": 2, "title": "앱테크 자동 만보기 듀얼 스마트폰 저소음 캐시워크 거치대",
+      "image": "//thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/bb42/f32c01bdd1cf639c57b8d60f8a360604e1b882b14b8a530dcdfe11b3eb30.png",
+      "link": "https://link.coupang.com/a/cGqPDq", "price": "15,420원"
+    },
+    {
+      "id": 3, "title": "놀면서 스마트해지는 두뇌 자극 플레이북 딴짓거리",
+      "image": "//thumbnail9.coupangcdn.com/thumbnails/remote/492x492ex/image/retail-product-api/A00077021/2456459/3894200/main/9791157685103_L.jpg",
+      "link": "https://link.coupang.com/a/cGqRY6", "price": "11,250원"
+    },
+    {
+      "id": 4, "title": "파티지엥 소형 베어브릭 큐빅 비즈 보석십자수 diy",
+      "image": "//thumbnail10.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/7f8d/d950b6cdc91009aa6682727837856593007608f37727a9c79d20449a6f1d.jpg",
+      "link": "https://link.coupang.com/a/cGqSGg", "price": "12,410원"
     }
   ]
 }
