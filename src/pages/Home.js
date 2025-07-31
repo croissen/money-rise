@@ -8,7 +8,7 @@ export default function Home() {
   const timerRef = useRef(null);
 
   useEffect(() => {
-    document.title = '머니머니 - Moneyrise.net';
+    document.title = '지식이 돈이다 - 머니라이즈';
   }, []);
 
   const handleLogoClick = () => {

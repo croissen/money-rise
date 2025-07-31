@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import * as S from './GoldenItems.styles';
 
-const TABS = ['케데헌', '장마', '자취생 꿀템', '머니머니 앤 힐링'];
+const TABS = ['케데헌', '장마', '자취', '힐링'];
 
 export default function GoldenKeyword() {
   const [activeTab, setActiveTab] = useState('케데헌');
@@ -24,7 +24,7 @@ export default function GoldenKeyword() {
   return (
     <S.Container>
       <S.Title>관심있는 키워드를 찾아보세요!</S.Title>
-
+     <iframe src="https://coupa.ng/cjgcHU" width="100%" height="144" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" browsingtopics></iframe>
       <S.TabsContainer>
         {TABS.map((tab) => (
           <S.TabButton
