@@ -6,7 +6,7 @@ const menuItems = [
   { path: '/goal-amount-calculator', label: '목표 금액 계산기' },
   { path: '/auto-number', label: '로또 번호 채굴' },
   { path: '/golden-items', label: '황금아이템' },
-  { path: '/empty-page', label: 'Comming-Soon' },
+  { path: '/more', label: '더보기' },
 ];
 
 const getPageName = (pathname) => {

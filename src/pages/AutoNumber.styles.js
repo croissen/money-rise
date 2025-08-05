@@ -23,7 +23,7 @@ export const Container = styled.div`
     color: white;
     border-color: #666;
   }
-
+                       
   @media (max-width: 480px) {
     max-width: 100%;
     padding: 10px;
