@@ -28,7 +28,7 @@
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "push-deploy": "npm run build && npm run deploy"
+    "push-deploy": "git add . && git diff-index --quiet HEAD || git commit -m \"update\" && git push origin master && npm run deploy"
   },
   "eslintConfig": {
     "extends": [
