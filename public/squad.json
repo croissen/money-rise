@@ -5,15 +5,15 @@
       "formation": "4-2-3-1",
       "players": [
         { "number": 1, "name": "T. 쿠르투아", "position": "GK" },
-        { "number": 12, "name": "T. 알렉산더아널드", "position": "RB" },
+        { "number": 12, "name": "T. 알렉산더아놀드", "position": "RB" },
         { "number": 3, "name": "É. 밀리탕", "position": "RCB" },
-        { "number": 24, "name": "D. 하이센", "position": "LCB" },
+        { "number": 24, "name": "D. 하위선", "position": "LCB" },
         { "number": 18, "name": "Á. 페르난데스", "position": "LB" },
         { "number": 8, "name": "F. 발베르데", "position": "RCM" },
         { "number": 14, "name": "A. 추아메니", "position": "LCM" },
         { "number": 30, "name": "F. 마스탄투오노", "position": "RM" },
-        { "number": 15, "name": "A. 굴러", "position": "CAM" },
-        { "number": 7, "name": "V. 주니어", "position": "LM" },
+        { "number": 15, "name": "A. 귈레르", "position": "CAM" },
+        { "number": 7, "name": "비니시우스 주니어", "position": "LM" },
         { "number": 10, "name": "K. 음바페", "position": "ST" }
       ]
     },
@@ -23,7 +23,7 @@
       "players": [
         { "number": 1, "name": "A. 레미로", "position": "GK" },
         { "number": 3, "name": "A. 무뇨스", "position": "LB" },
-        { "number": 4, "name": "D. 칼레타-카", "position": "LCB" },
+        { "number": 4, "name": "D. 찰레타차르", "position": "LCB" },
         { "number": 21, "name": "I. 수벨디아", "position": "RCB" },
         { "number": 2, "name": "J. 아람부루", "position": "RB" },
         { "number": 20, "name": "A. 바레네체아", "position": "LM" },
