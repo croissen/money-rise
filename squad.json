@@ -1,0 +1,72 @@
+{
+  "teams": {
+    "레알 마드리드": {
+      "teamColor": "white",
+      "formation": "4-2-3-1",
+      "players": [
+        { "number": 1, "name": "T. 쿠르투아", "position": "GK" },
+        { "number": 12, "name": "T. 알렉산더아널드", "position": "RB" },
+        { "number": 3, "name": "É. 밀리탕", "position": "RCB" },
+        { "number": 24, "name": "D. 하이센", "position": "LCB" },
+        { "number": 18, "name": "Á. 페르난데스", "position": "LB" },
+        { "number": 8, "name": "F. 발베르데", "position": "RCM" },
+        { "number": 14, "name": "A. 추아메니", "position": "LCM" },
+        { "number": 30, "name": "F. 마스탄투오노", "position": "RM" },
+        { "number": 15, "name": "A. 굴러", "position": "CAM" },
+        { "number": 7, "name": "V. 주니어", "position": "LM" },
+        { "number": 10, "name": "K. 음바페", "position": "ST" }
+      ]
+    },
+    "레알소시에다드": {
+      "teamColor": "skyblue",
+      "formation": "4-4-2",
+      "players": [
+        { "number": 1, "name": "A. 레미로", "position": "GK" },
+        { "number": 3, "name": "A. 무뇨스", "position": "LB" },
+        { "number": 4, "name": "D. 칼레타-카", "position": "LCB" },
+        { "number": 21, "name": "I. 수벨디아", "position": "RCB" },
+        { "number": 2, "name": "J. 아람부루", "position": "RB" },
+        { "number": 20, "name": "A. 바레네체아", "position": "LM" },
+        { "number": 8, "name": "J. 고로차테기", "position": "LCM" },
+        { "number": 8, "name": "P. 마린", "position": "RCM" },
+        { "number": 10, "name": "T. 쿠보 다케후사", "position": "RM" },
+        { "number": 7, "name": "M. 오야르사발", "position": "LST" },
+        { "number": 18, "name": "O. 오스카르손", "position": "RST" }
+      ]
+    },
+    "마요르카": {
+      "teamColor": "#e53935",
+      "formation": "5-3-2",
+      "players": [
+        { "number": 1, "name": "L. 로만", "position": "GK" },
+        { "number": 3, "name": "라토", "position": "LB" },
+        { "number": 4, "name": "M. 굼블라", "position": "LCB" },
+        { "number": 21, "name": "A. Raillo", "position": "CB" },
+        { "number": 24, "name": "M. 발렌트", "position": "RCB" },
+        { "number": 2, "name": "M. 모리", "position": "RB" },
+        { "number": 20, "name": "P. 토레", "position": "LM" },
+        { "number": 8, "name": "M. 모를라레스", "position": "CM" },
+        { "number": 10, "name": "S. 다르레", "position": "RM" },
+        { "number": 7, "name": "V. 무리키", "position": "ST" },
+        { "number": 18, "name": "M. 조셉", "position": "ST" }
+      ]
+    },
+    "맨체스터 시티": {
+      "teamColor": "#6CABDD",
+      "formation": "4-2-3-1",
+      "players": [
+        { "number": 31, "name": "에데르송", "position": "GK" },
+        { "number": 2, "name": "워커", "position": "RB" },
+        { "number": 3, "name": "디아스", "position": "CB" },
+        { "number": 25, "name": "아칸지", "position": "CB" },
+        { "number": 6, "name": "아케", "position": "LB" },
+        { "number": 16, "name": "로드리", "position": "CM" },
+        { "number": 8, "name": "코바치치", "position": "CM" },
+        { "number": 17, "name": "더브라위너", "position": "CAM" },
+        { "number": 20, "name": "베르나르두", "position": "RW" },
+        { "number": 9, "name": "홀란드", "position": "ST" },
+        { "number": 10, "name": "그릴리시", "position": "LW" }
+      ]
+    }
+  }
+}
