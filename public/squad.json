@@ -17,6 +17,57 @@
         { "number": 10, "name": "K. 음바페", "position": "ST" }
       ]
     },
+    "바르셀로나": {
+      "teamColor": "#a40047",
+      "formation": "4-2-3-1",
+      "players": [
+        { "number": 1, "name": "J. 가르시아", "position": "GK" },
+        { "number": 12, "name": "J. 쿤데", "position": "RB" },
+        { "number": 3, "name": "E. 가르시아", "position": "RCB" },
+        { "number": 24, "name": "A. 크리스텐센", "position": "LCB" },
+        { "number": 18, "name": "제라드 마르틴", "position": "LB" },
+        { "number": 8, "name": "페르민 로페스", "position": "RCM" },
+        { "number": 14, "name": "페드리", "position": "LCM" },
+        { "number": 30, "name": "L. 야말", "position": "RM" },
+        { "number": 15, "name": "D. 올모", "position": "CAM" },
+        { "number": 7, "name": "하피냐", "position": "LM" },
+        { "number": 10, "name": "R. 레반도프스키", "position": "ST" }
+      ]
+    },
+    "발렌시아": {
+      "teamColor": "#ff4b13",
+      "formation": "4-2-3-1",
+      "players": [
+        { "number": 1, "name": "J. 아기레사발라", "position": "GK" },
+        { "number": 12, "name": "D. 풀키에", "position": "RB" },
+        { "number": 3, "name": "C. 타레가", "position": "RCB" },
+        { "number": 24, "name": "M. 디아카비", "position": "LCB" },
+        { "number": 18, "name": "J. 바스케스", "position": "LB" },
+        { "number": 8, "name": "J. 게라", "position": "RCM" },
+        { "number": 14, "name": "B. 산타마리아", "position": "LCM" },
+        { "number": 30, "name": "L. 리오자", "position": "RM" },
+        { "number": 15, "name": "D. 로페즈", "position": "CAM" },
+        { "number": 7, "name": "A. 흐루네벨트", "position": "LM" },
+        { "number": 10, "name": "H. 듀로", "position": "ST" }
+      ]
+    },
+    "라요": {
+      "teamColor": "red",
+      "formation": "4-4-2",
+      "players": [
+        { "number": 1, "name": "A. 바탈라", "position": "GK" },
+        { "number": 3, "name": "P. 차바리아", "position": "LB" },
+        { "number": 4, "name": "F. 르죈", "position": "LCB" },
+        { "number": 21, "name": "L. 라모스", "position": "RCB" },
+        { "number": 2, "name": "A. 라티우", "position": "RB" },
+        { "number": 20, "name": "Á. 가르시아 리베라", "position": "LM" },
+        { "number": 8, "name": "P. 시스", "position": "LCM" },
+        { "number": 8, "name": "U. 로페스", "position": "RCM" },
+        { "number": 10, "name": "J. 데 프루토스", "position": "RM" },
+        { "number": 7, "name": "P. 디아스", "position": "LST" },
+        { "number": 18, "name": "I. Palazón", "position": "RST" }
+      ]
+    },
     "레알소시에다드": {
       "teamColor": "skyblue",
       "formation": "4-4-2",
