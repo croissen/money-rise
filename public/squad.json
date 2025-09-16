@@ -10,8 +10,8 @@
         { "number": 24, "name": "D. 하위선", "position": "LCB" },
         { "number": 18, "name": "Á. 페르난데스", "position": "LB" },
         { "number": 8, "name": "F. 발베르데", "position": "RCM" },
-        { "number": 14, "name": "A. 추아메니", "position": "LCM" },
-        { "number": 30, "name": "F. 마스탄투오노", "position": "RM" },
+        { "number": 14, "name": "J. 벨링엄", "position": "LCM" },
+        { "number": 30, "name": "브라힘 디아스", "position": "RM" },
         { "number": 15, "name": "A. 귈레르", "position": "CAM" },
         { "number": 7, "name": "비니시우스 주니어", "position": "LM" },
         { "number": 10, "name": "K. 음바페", "position": "ST" }
@@ -49,6 +49,23 @@
         { "number": 15, "name": "D. 로페즈", "position": "CAM" },
         { "number": 7, "name": "A. 흐루네벨트", "position": "LM" },
         { "number": 10, "name": "H. 듀로", "position": "ST" }
+      ]
+    },
+    "마르세유": {
+      "teamColor": "#5BB0F0",
+      "formation": "4-2-3-1",
+      "players": [
+        { "number": 1, "name": "J. 드 랭", "position": "GK" },
+        { "number": 12, "name": "M. 무리요", "position": "RB" },
+        { "number": 3, "name": "B. 파바르", "position": "RCB" },
+        { "number": 24, "name": "N. 아구에르드", "position": "LCB" },
+        { "number": 18, "name": "F. 메디나", "position": "LB" },
+        { "number": 8, "name": "A. 고메즈", "position": "RCM" },
+        { "number": 14, "name": "G. 콘도그비아", "position": "LCM" },
+        { "number": 30, "name": "M. 그린우드", "position": "RM" },
+        { "number": 15, "name": "B. 나딜", "position": "CAM" },
+        { "number": 7, "name": "T. 웨아", "position": "LM" },
+        { "number": 10, "name": "A. 구이리", "position": "ST" }
       ]
     },
     "라요": {
@@ -108,15 +125,15 @@
       "players": [
         { "number": 31, "name": "에데르송", "position": "GK" },
         { "number": 2, "name": "워커", "position": "RB" },
-        { "number": 3, "name": "디아스", "position": "CB" },
-        { "number": 25, "name": "아칸지", "position": "CB" },
+        { "number": 3, "name": "디아스", "position": "RCB" },
+        { "number": 25, "name": "아칸지", "position": "LCB" },
         { "number": 6, "name": "아케", "position": "LB" },
-        { "number": 16, "name": "로드리", "position": "CM" },
-        { "number": 8, "name": "코바치치", "position": "CM" },
+        { "number": 16, "name": "로드리", "position": "LCM" },
+        { "number": 8, "name": "코바치치", "position": "RCM" },
         { "number": 17, "name": "더브라위너", "position": "CAM" },
-        { "number": 20, "name": "베르나르두", "position": "RW" },
+        { "number": 20, "name": "베르나르두", "position": "RM" },
         { "number": 9, "name": "홀란드", "position": "ST" },
-        { "number": 10, "name": "그릴리시", "position": "LW" }
+        { "number": 10, "name": "그릴리시", "position": "LM" }
       ]
     }
   }
