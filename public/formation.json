@@ -8,6 +8,14 @@
       {"role": "ST", "positions": [ "ST"]}
     ]
   },
+  "4-3-3": {
+    "lines": [
+      {"role": "GK", "positions": ["GK"]},
+      {"role": "DEF", "positions": ["RB", "RCB", "LCB", "LB"]},
+      {"role": "CM", "positions": ["RCM","CM", "LCM"]},
+      {"role": "ST", "positions": [ "RW","ST","LW"]}
+    ]
+  },
   "4-4-2": {
     "lines": [
       {"role": "GK", "positions": ["GK"]},
