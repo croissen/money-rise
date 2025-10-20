@@ -5,33 +5,33 @@
       "formation": "4-2-3-1",
       "players": [
         { "number": 1, "name": "T. 쿠르투아", "position": "GK" },
-        { "number": 12, "name": "T. 알렉산더아놀드", "position": "RB" },
+        { "number": 8, "name": "F. 발베르데", "position": "RB" },
         { "number": 3, "name": "É. 밀리탕", "position": "RCB" },
-        { "number": 24, "name": "D. 하위선", "position": "LCB" },
+        { "number": 17, "name": "라울 아센시오", "position": "LCB" },
         { "number": 18, "name": "Á. 페르난데스", "position": "LB" },
-        { "number": 8, "name": "F. 발베르데", "position": "RCM" },
-        { "number": 14, "name": "J. 벨링엄", "position": "LCM" },
-        { "number": 30, "name": "브라힘 디아스", "position": "RM" },
-        { "number": 15, "name": "A. 귈레르", "position": "CAM" },
+        { "number": 14, "name": "A. 추아메니", "position": "RCM" },
+        { "number": 5, "name": "J. 벨링엄", "position": "LCM" },
+        { "number": 30, "name": "F. 마스탄투오노", "position": "RM" },
+        { "number": 15, "name": "A. 귈러", "position": "CAM" },
         { "number": 7, "name": "비니시우스 주니어", "position": "LM" },
         { "number": 10, "name": "K. 음바페", "position": "ST" }
       ]
     },
     "바르셀로나": {
       "teamColor": "#a40047",
-      "formation": "4-2-3-1",
+      "formation": "4-3-3",
       "players": [
-        { "number": 1, "name": "J. 가르시아", "position": "GK" },
-        { "number": 12, "name": "J. 쿤데", "position": "RB" },
-        { "number": 3, "name": "E. 가르시아", "position": "RCB" },
-        { "number": 24, "name": "A. 크리스텐센", "position": "LCB" },
-        { "number": 18, "name": "제라드 마르틴", "position": "LB" },
-        { "number": 8, "name": "페르민 로페스", "position": "RCM" },
-        { "number": 14, "name": "페드리", "position": "LCM" },
-        { "number": 30, "name": "L. 야말", "position": "RM" },
-        { "number": 15, "name": "D. 올모", "position": "CAM" },
-        { "number": 7, "name": "하피냐", "position": "LM" },
-        { "number": 10, "name": "R. 레반도프스키", "position": "ST" }
+        { "number": 25, "name": "W. 슈체츠니", "position": "GK" },
+        { "number": 23, "name": "J. 쿤데", "position": "RB" },
+        { "number": 4, "name": "R. 아라우호", "position": "RCB" },
+        { "number": 5, "name": "P. 쿠바르시", "position": "LCB" },
+        { "number": 3, "name": "A. 발데", "position": "LB" },
+        { "number": 16, "name": "페르민 로페스", "position": "LCM" },
+        { "number": 14, "name": "페드리", "position": "RCM" },
+        { "number": 10, "name": "L. 야말", "position": "RW" },
+        { "number": 21, "name": "F. 데 용", "position": "CM" },
+        { "number": 14, "name": "M. 래시포드", "position": "LW" },
+        { "number": 29, "name": "T. 페르난데스", "position": "ST" }
       ]
     },
     "발렌시아": {
