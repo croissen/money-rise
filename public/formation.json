@@ -1,0 +1,35 @@
+{
+  "4-2-3-1": {
+    "lines": [
+      {"role": "GK", "positions": ["GK"]},
+      {"role": "DEF", "positions": ["RB", "RCB", "LCB", "LB"]},
+      {"role": "CDM", "positions": ["RCM", "LCM"]},
+      {"role": "CAM", "positions": ["RM","CAM", "LM"]},
+      {"role": "ST", "positions": [ "ST"]}
+    ]
+  },
+  "4-3-3": {
+    "lines": [
+      {"role": "GK", "positions": ["GK"]},
+      {"role": "DEF", "positions": ["RB", "RCB", "LCB", "LB"]},
+      {"role": "CM", "positions": ["RCM","CM", "LCM"]},
+      {"role": "ST", "positions": [ "RW","ST","LW"]}
+    ]
+  },
+  "4-4-2": {
+    "lines": [
+      {"role": "GK", "positions": ["GK"]},
+      {"role": "DEF", "positions": ["RB", "RCB", "LCB", "LB"]},
+      {"role": "CM", "positions": ["RM","RCM","LCM","LM"]},
+      {"role": "ST", "positions": [ "RST", "LST"]}
+    ]
+  },
+  "5-3-2": {
+    "lines": [
+      {"role": "GK", "positions": ["GK"]},
+      {"role": "DEF", "positions": ["RB", "RCB", "CB", "LCB", "LB"]},
+      {"role": "MID", "positions": ["RM", "CM", "LM"]},
+      {"role": "ST", "positions": ["ST", "ST"]}
+    ]
+  }
+}

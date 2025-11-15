@@ -74,7 +74,7 @@ const pickValidRandom = (excludedSet, history) => {
       rank2 === 0 &&
       rank3 === 0 &&
       rank4 >= 1 && rank4 <= 2 &&
-      rank5 >= 20 && rank5 <= 220
+      rank5 >= 18 && rank5 <= 20
     ) {
       return sortedResult;
     }
